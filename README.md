@@ -121,3 +121,8 @@ Generated outputs will be stored in the output directory.
 * Logging framework
 * GitHub Actions CI/CD pipeline
 * Additional automated tests
+
+# Output
+
+<img width="634" height="365" alt="image" src="https://github.com/user-attachments/assets/ee3f0542-5587-449b-b6dd-1522526a72eb" />
+
