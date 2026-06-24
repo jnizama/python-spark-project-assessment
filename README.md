@@ -2,22 +2,22 @@
 
 ## Overview
 
-This project was developed using Python 3.10 and PySpark 3.5.0.
+This project was built with Python 3.10 and PySpark 3.5.0.
 
-The application processes three datasets containing employee, sales, and call information for a telemarketing company. It performs basic data quality validations and generates multiple business outputs requested by stakeholders.
+The program reads three CSV files with employee, sales, and call data from a telemarketing company. It checks that the data is valid and creates the required output files.
 
 ## Features
 
 ### Data Quality Checks
 
-The application performs the following checks before processing:
+The application following checks before processing:
 
 * ID fields are non-null
 * ID fields are unique
 * Row counts match expected values
 * Numeric fields are not negative
 
-### Output #1 - IT Data
+### Result 1
 
 Generates a dataset containing:
 
@@ -32,7 +32,7 @@ Output directory:
 output/it_data
 ```
 
-### Output #2 - Marketing Address Information
+### Result 2
 
 Generates a dataset containing:
 
@@ -46,7 +46,7 @@ Output directory:
 output/marketing_address_info
 ```
 
-### Output #3 - Department Breakdown
+### Result 3
 
 Generates aggregated information per department:
 
@@ -59,7 +59,7 @@ Output directory:
 output/department_breakdown
 ```
 
-## Project Structure
+## Project Structure Path
 
 ```text
 TCS_ASSESSMENT
